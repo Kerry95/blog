@@ -24,8 +24,8 @@
     <%= f.text_area :context %>
   </div>
   <h2>Tags</h2>
-  <%render :partial => 'tags/form',
-           :locals => {:form => f} %>
+  <%= render :partial => 'tags/form',
+             :locals => {:form => f} %>
   <div class="actions">
     <%= f.submit %>
   </div>
