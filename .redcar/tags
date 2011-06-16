@@ -1,4 +1,4 @@
-1308212189
+1308221711
 Application	/Users/poppy/code/blog/config/application.rb	  class Application 
 ApplicationController	/Users/poppy/code/blog/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/poppy/code/blog/app/helpers/application_helper.rb	module ApplicationHelper
@@ -17,6 +17,8 @@ HomeController	/Users/poppy/code/blog/app/controllers/home_controller.rb	class H
 HomeControllerTest	/Users/poppy/code/blog/test/functional/home_controller_test.rb	class HomeControllerTest 
 HomeHelper	/Users/poppy/code/blog/app/helpers/home_helper.rb	module HomeHelper
 HomeHelperTest	/Users/poppy/code/blog/test/unit/helpers/home_helper_test.rb	class HomeHelperTest 
+HtmlSelectorsHelpers	/Users/poppy/code/blog/features/support/selectors.rb	module HtmlSelectorsHelpers
+NavigationHelpers	/Users/poppy/code/blog/features/support/paths.rb	module NavigationHelpers
 Post	/Users/poppy/code/blog/app/models/post.rb	class Post 
 PostTest	/Users/poppy/code/blog/test/unit/post_test.rb	class PostTest 
 PostsController	/Users/poppy/code/blog/app/controllers/posts_controller.rb	class PostsController 
@@ -28,6 +30,7 @@ Tag	/Users/poppy/code/blog/app/models/tag.rb	class Tag
 TagTest	/Users/poppy/code/blog/test/unit/tag_test.rb	class TagTest 
 TestCase	/Users/poppy/code/blog/test/test_helper.rb	class ActiveSupport::TestCase
 Type	/Users/poppy/code/blog/public/javascripts/prototype.js	function Type(o)
+WithinHelpers	/Users/poppy/code/blog/features/step_definitions/web_steps.rb	module WithinHelpers
 abs	/Users/poppy/code/blog/public/javascripts/prototype.js	function abs()
 absolutize	/Users/poppy/code/blog/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/Users/poppy/code/blog/public/javascripts/prototype.js	function addMethods(source)
@@ -164,6 +167,7 @@ on	/Users/poppy/code/blog/public/javascripts/prototype.js	function on(element, e
 parseColor	/Users/poppy/code/blog/public/javascripts/effects.js	function parseColor(color)
 parseJSON	/Users/poppy/code/blog/public/javascripts/prototype.js	function parseJSON()
 partition	/Users/poppy/code/blog/public/javascripts/prototype.js	function partition(iterator, context)
+path_to	/Users/poppy/code/blog/features/support/paths.rb	  def path_to(page_name)
 pluck	/Users/poppy/code/blog/public/javascripts/prototype.js	function pluck(property)
 pointer	/Users/poppy/code/blog/public/javascripts/prototype.js	function pointer(event)
 pointerX	/Users/poppy/code/blog/public/javascripts/prototype.js	function pointerX(event)
@@ -179,6 +183,7 @@ round	/Users/poppy/code/blog/public/javascripts/prototype.js	function round()
 scan	/Users/poppy/code/blog/public/javascripts/prototype.js	function scan(pattern, iterator)
 select	/Users/poppy/code/blog/public/javascripts/prototype.js	function select()
 select	/Users/poppy/code/blog/public/javascripts/prototype.js	function select(selector, scope)
+selector_for	/Users/poppy/code/blog/features/support/selectors.rb	  def selector_for(locator)
 set	/Users/poppy/code/blog/public/javascripts/prototype.js	function set(key, value)
 show	/Users/poppy/code/blog/app/controllers/posts_controller.rb	  def show
 size	/Users/poppy/code/blog/public/javascripts/prototype.js	function size()
@@ -230,6 +235,7 @@ update	/Users/poppy/code/blog/public/javascripts/prototype.js	function update(ob
 values	/Users/poppy/code/blog/public/javascripts/prototype.js	function values()
 values	/Users/poppy/code/blog/public/javascripts/prototype.js	function values(object)
 viewportOffset	/Users/poppy/code/blog/public/javascripts/prototype.js	function viewportOffset(forElement)
+with_scope	/Users/poppy/code/blog/features/step_definitions/web_steps.rb	  def with_scope(locator)
 without	/Users/poppy/code/blog/public/javascripts/prototype.js	function without()
 wrap	/Users/poppy/code/blog/public/javascripts/prototype.js	function wrap(wrapper)
 zip	/Users/poppy/code/blog/public/javascripts/prototype.js	function zip()
