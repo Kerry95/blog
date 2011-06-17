@@ -1,0 +1,35 @@
+/* My Application Styles */
+
+h1 {
+  color: #6495ED;
+  font-size: 3em;
+}
+
+h2 {
+  color: #6495ED;
+  font-size: 3em;
+}
+
+#header h1 {
+  color: #4876FF;
+  font-size: 4em;
+}
+
+#content {
+  float: left;
+}
+
+#navbar {
+  float: right;
+  color: #1E90FF;
+}
+
+#navbar ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+label {
+  font-size: 1.5em;
+  color: #1E90FF;
+}

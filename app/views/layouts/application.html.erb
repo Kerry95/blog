@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Blog</title>
+<title>Kerry's Blog</title>
 	<%= stylesheet_link_tag :all %>
-	<%= javascript_include_tag :defaults %>
+	<%= javascript_include_tag :defaults, "application" %>
 	<%= csrf_meta_tag %>
 </head>
-<body style="background: #EEEEEE;">
-
-<%= yield %>
-
+<body style="background: #B0E2FF;">
+  <div id="header">
+    <h1>Kerry's Fantastic Blog</h1>
+  </div>
+  <div id="navbar">
+    <ul>
+      <li><a href="/">Index</a></li>
+      <li>Posts</li>
+    </ul>
+  </div>
+  <div id="content">
+     <%= yield %>
+  </div>
 </body>
 </html>
